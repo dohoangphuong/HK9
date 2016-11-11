@@ -1,0 +1,12 @@
+desc_ca=Gestor de Fitxers
+webmin=1
+longdesc_ca=Gestor de fitxers lleuger i ràpid escrit en perl.
+version=1.820
+longdesc=Fast and light file manager written in perl
+name=File Manager
+usermin=1
+desc_no=Filbehandling
+desc=File Manager
+depends=1.820
+desc_ca.UTF-8=Gestor de Fitxers
+desc_no.UTF-8=Filbehandling

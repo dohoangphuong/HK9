@@ -1,0 +1,12 @@
+desc_ca=iSCSI TGTd
+longdesc_ca=Comparteix els dispositius de disc a través de la xarxa utilitzant el protocol iSCSI amb el paquet TGTd.
+longdesc_de=Teilt Plattenger&#228;te &#252;ber das Netzwerk mit dem iSCSI-Protokoll mit dem TGTd Paket.
+version=1.820
+longdesc=Share disk devices across the network using the iSCSI protocol with the TGTd package.
+os_support=*-linux
+desc_de=iSCSI TGTd
+desc=iSCSI TGTd
+category=hardware
+depends=fdisk lvm raid init 1.820
+desc_de.UTF-8=iSCSI TGTd
+desc_ca.UTF-8=iSCSI TGTd

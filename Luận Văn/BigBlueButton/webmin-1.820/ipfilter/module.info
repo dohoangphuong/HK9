@@ -1,0 +1,13 @@
+desc_ca=Tallafocs IPFIlter
+longdesc_ca=Configura un tallafocs utilitzant el paquet IPFilter, bo i creant i editant regles.
+version=1.820
+longdesc=Configure a firewall using the IPFilter package, by creating and editing rules.
+os_support=solaris {&has_command("ipf")}
+desc_de=IPFilter-Firewall 
+desc=IPFilter Firewall
+desc_nl=IPFilter Firewall
+category=net
+depends=net 1.820
+desc_de.UTF-8=IPFilter-Firewall 
+desc_ca.UTF-8=Tallafocs IPFIlter
+desc_nl.UTF-8=IPFilter Firewall

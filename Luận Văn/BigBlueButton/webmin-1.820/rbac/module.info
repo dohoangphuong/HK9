@@ -1,0 +1,11 @@
+desc_ca=RBAC i Projectes
+longdesc_ca=Gestiona els atributs, perfils i autoritzacions d'usuaris RBAC.
+version=1.820
+longdesc=Manage RBAC user attributes, profiles and authorizations.
+os_support=solaris/10 solaris{-r "/etc/user_attr"}
+desc=RBAC and Projects
+desc_nl=RBAG en Projecten
+category=system
+depends=1.820
+desc_ca.UTF-8=RBAC i Projectes
+desc_nl.UTF-8=RBAG en Projecten

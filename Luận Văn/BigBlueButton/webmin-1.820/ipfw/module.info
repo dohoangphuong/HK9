@@ -1,0 +1,14 @@
+desc_ca=Tallafocs BSD
+longdesc_ca=Configura un tallafocs BSD utilitzant IPFW, bo i creant i editant regles.
+longdesc_de=Konfiguriert eine BSD Firewall mit IPFW, durch Erstellen und Bearbeiten von Regeln.
+version=1.820
+longdesc=Configure a BSD firewall using IPFW, by creating and editing rules.
+os_support=freebsd macos
+desc_de=BSD Firewall
+desc=BSD Firewall
+desc_nl=BSD Firewall
+category=net
+depends=net init 1.820
+desc_de.UTF-8=BSD Firewall
+desc_ca.UTF-8=Tallafocs BSD
+desc_nl.UTF-8=BSD Firewall

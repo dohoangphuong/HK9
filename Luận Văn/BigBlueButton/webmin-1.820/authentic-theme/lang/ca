@@ -1,0 +1,578 @@
+body_cp=CPU
+body_cpu=Càrregues mitjanes de la CPU
+body_cpuinfo=Informació del processador
+body_cputemps=Temperatures de la CPU
+body_cputype=$5, $8 nuclis
+body_disk=Espai del disc local
+body_driveerr=$1 errors!
+body_drivefailed=la comprovació SMART ha fallat!
+body_drivetemps=Temperatures de les unitats
+body_firewall=Versió del tallafocs
+body_header0=Informació del Sistema
+body_host=Nom de host
+body_header1=Informació del Compte
+body_kernel=Kernel i CPU
+body_kernelon=$1 $2 a $3
+body_load=$1 (1 min) $2 (5 mins) $3 (15 mins)
+body_os=Sistema operatiu
+body_procs=Processos en execució
+body_real=Memòria real
+body_time=Hora del sistema
+body_updates=Actualitzacions de paquets
+body_updays=$1 dies, $2 hores, $3 minuts
+body_uphours=$1 houres, $2 minuts
+body_upmins=$1 minuts
+body_upneed=Hi ha $1 actualitzacions de paquets disponibles
+body_upneed1=Hi ha $1 actualització de de paquet disponible
+body_upok=Tots els paquest instal·lats estan actualitzats
+body_upsec=Hi ha $1 actualitzacions de paquets disponibles, de les quals $2 són actualitzacions de seguretat
+body_upsec1=Hi ha $1 actualitzacions de paquets disponibles, de les quals $2 són actualitzacions de seguretat
+body_upsec2=Hi ha $1 actualització de paquet disponible, de les quals $2 són actualitzacions de seguretat
+body_upsec3=Hi ha $1 actualització de paquet disponible, de la qual $2 és una actualització de seguretat
+body_uptime=Temps actiu del sistema
+body_used=$1 total / $2 utilitzats
+body_used_and_free=$1 total / $2 lliures / $3 utilitzats
+body_usermin=Versió d'Usermin
+body_virt=Memòria virtual
+body_webmin=Versió de Webmin
+
+left_favorites=Preferits
+left_favorites_no=Encara no s'ha afegit cap preferit...
+left_feedback=Envia la Teva Opinió
+left_home=Informació del Sistema
+left_others=Altres
+left_refresh_modules=Refresca els Mòduls
+left_search=Cerca
+left_statistics=Estadístiques del Sistema
+
+login_danger=Perill!
+login_message=Has d'introduir un usuari i una contrasenya per entrar al servidor de
+login_pass=Contrasenya
+login_reset=Reinicia
+login_save=Recorda'm
+login_signin=Registra't
+login_success=Èxit!
+login_token=Testimoni
+login_user=Usuari
+login_warning=Atenció!
+
+right_aliases=Servidors Àlies
+right_bw=Ús i límitacio de l'amplada de banda
+right_dom=El nom del teu servidor
+right_faliases=Adreça de correu
+right_fdbs=Bases de dades
+right_fdoms=Servidors Virtuals
+right_from=COnnectat des de
+right_fusers2=Usuaris FTP
+right_fusers=Usuaris de Correu/FTP
+right_fvm2=Màquines Virtuals
+right_fweb=Llocs Web Virtuals
+right_licenceheader_vm2=Llicències Cloudmin
+right_login=Connectat com
+right_not=No instal·lat
+right_of=$1 de $2
+right_quota=Ús i quotes de disc
+right_reselip=(Revenedor $1)
+right_sharedip=(IP compartida)
+right_slcheck=Recomprova la llicència Cloudmin
+right_subs=Subservidors
+right_virtdocs2=Documentació addicional
+right_virtualmin=Versió de Virtualmin
+right_vlcheck=Recomprova la llicència de Virtualmin
+right_vm2=Versió de Cloudmin
+
+session_failed=L'entrada ha fallat. Prova-ho un altre cop, si et plau.
+session_logout=Has sortit correctament. Utilitza el formulari de sota per tornar a entrar.
+session_timed_out=La sessió ha caducat per temps límit passats $1 minuts d'inactivitat.
+session_twofailed=L'autenticació de dos factors ha fallat: $1
+
+
+
+
+
+
+
+
+
+
+settings_right_options=Opcions
+settings_right_restore_defaults=Restaura els valors per defecte
+settings_right_restored=S'ha restaurat
+settings_right_restoring=S'està restaurant
+settings_right_saved=S'ha desat
+settings_right_saving=S'està desant
+
+settings_right_theme_extensions=Extensions del tema
+settings_right_theme_extensions_title=Extensions del tema
+settings_right_file_edit=Edita el fitxer d'extensions:
+settings_right_extensions_title=Disseny extensiu de tema, et permet manipular fàcilment parts concretes de la interfície. És possible accedir tant a <em>CSS</em> com a <em>JavaScript</em> escrivint fitxers personalitzats d'iextensions d'<em>estils</em> i <em>scripts</em>. Heus aquí alguns exemples simples, fets per ajudar-te a entendre la idea bàsica de la seva aplicació. Per exemple, per tal de canviar el color del fons, afegeix l'estil següent a l'extensió CSS: <code>body {background-color: Gainsboro}</code>. Fent servir JavaScript, per canviar l'amplada del botó <tt>submit</tt>, afegeix el codi següent a l'extensió de extension: <code>$('button[type="submit"]').animate({width: "100%"}, 1000)</code>. No obstant, a la pràctica, serà més complicat que això.
+
+settings_right_theme_logos=Logos del tema
+settings_right_theme_logos_title=Logos del tema
+settings_right_logos_title=Aquí es poden establir fàcilment els logos del tema, tant per als usuaris autenticats com per als no autenticats. La mida recomanda del logo és de <kbd>180x90</kbd> píxels, i l'únic format suportat és <kbd>.png</kbd>, per a poder proporcionar transparència alfa. Després de configurar el logo, cas que sigui necessari, el pots manipular amb <a href="/settings-editor_read.cgi"><em>CSSs</em></a> extensibles i <a href="/settings-editor_read.cgi?file=%path%/authentic-theme/scripts.js"><em>JavaScript</em></a>, bo i accedint-hi pels nom de classe, que són <code>._logo</code> i <code>._logo_welcome</code>, corresponents als tipus <em>authenticated</em> and <em>unauthenticated</em>.
+settings_right_logo_authenticated_users=Logo dels usuaris autenticats
+settings_right_logo_unauthenticated_users=Logo dels usuaris no autenticats
+
+settings_right_current_theme=Tema actual
+settings_right_title=Aquesta pàgina et permet configurar les opcions del <a href="https://github.com/qooob/authentic-theme" target="_blank">Tema Authentic</a>. Els paràmetres es quedaran desats quan s'actualitzi el tema.
+settings_right_theme_left_configuration_title=Configuració del Tema Authentic
+settings_right_theme_left_extensions_title=Editor d'Extensions del Tema Authentic
+settings_right_theme_left_logo_title=Control del Logo del Tema Authentic
+settings_right_theme_configurable_options_title=Opcions configurables del Tema Authentic
+
+
+settings_right_window_options_title=Opcions de la finestra
+settings_right_navigation_menu_title=Opcions del menú de navegació
+settings_right_table_options_title=Opcions de taula
+settings_security_title=Opcions d'Alertes de Seguretat
+settings_security_description=Les alertes de seguretat et permetran configurar notificacions e-mail per a certs esdeveniments. (per a fer funcionar aquesta característica, cal l'ordre <code>mail</code> de Linux)<br class="lh0">Format: <code>Missatge|Assumpte|Llista d'usuaris/correus separada per comes|Llista d'IPv4/IPv6 ignorades separada per comes</code><br class="lh0">Ús: <code>%3 alerta d'entrada correcta per a l'usuari %1 des de %2|%3 alerta d'entrada correcta|root,user@example.org|1.2.3.4,5.6.7.8</code><br class="lh0"> Sortida: <code>De: root, A: root, Assumpte: Alerta d'entrada correcta de Webmin, Missatge: Alerta d'entrada correcta de Webmin per a l'usuari root des de 2.3.4.5</code>
+settings_right_hotkey_options_title=Opcions de dreceres de teclat
+settings_right_sysinfo_page_options_title=Opcions dela pàgina d'Informació del Sistema
+
+settings_right_hotkey_custom_options_description=Els enllaços personalitzats et permeten fer servir números de l'<code>1</code> al <code>9</code> per tal d'accedir ràpidament a qualsevol <code>URL</code> vàlid de Webmin/Usermin/Virtualmin/Cloudmin. L'<code>URL</code> es pot extreure del marc dret de la pàgina oberta actualment, llegint-ne el codi font. És important que l'<code>URL</code> no tingui cap barra al principi i no utilitzi prefixos. Per exemple, per accedir ràpidament a Apache, posa <code>apache</code> dins del camp de l'<code>enllaç personalitzat 1</code>. Si el modificador de dreceres de teclat per defecte és <code>Alt,</code> fent clic a <code>Alt+1</code>, t'obrirà el mòdul d'Apache.
+settings_hotkey_custom_1=Enllaç personalitzat <code>1</code>
+settings_hotkey_custom_2=Enllaç personalitzat <code>2</code>
+settings_hotkey_custom_3=Enllaç personalitzat <code>3</code>
+settings_hotkey_custom_4=Enllaç personalitzat <code>4</code>
+settings_hotkey_custom_5=Enllaç personalitzat <code>5</code>
+settings_hotkey_custom_6=Enllaç personalitzat <code>6</code>
+settings_hotkey_custom_7=Enllaç personalitzat <code>7</code>
+settings_hotkey_custom_8=Enllaç personalitzat <code>8</code>
+settings_hotkey_custom_9=Enllaç personalitzat <code>9</code>
+
+settings_navigation_color=Paleta de colors del menú de navegació
+settings_background_color=Paleta de colors de la pàgina de continguts
+settings_loader_left=Activa el spinner per al menú de navegació
+settings_animation_left=Activa l'animació al menú de navegació
+settings_animation_tabs=Activa l'animació a les pestanyes
+settings_loader_top=Activa el progrés de càrrega de pàgina a dalt de la pantalla
+settings_right_reload=Carrega la pàgina de continguts per defecte
+settings_right_reload_description=Quan es canvia entre pestanyes, es recarrega el contingut del marc dret. Vols ometre la pàgina del marc dret oberta actualment i carregar-la amb el contingut per defecte?
+
+settings_right_hide_table_icons=Amaga les icones de les taules al marc dret
+settings_right_hide_table_icons_description=Elimina completament les icones de les taules de la pàgina de continguts  mostra enllaços simples amb fletxeta
+settings_right_small_table_icons=Icones petites de les taules
+settings_right_small_table_icons_description=Substitueix la mida estàndard de les icones de taules per una de petita i mostra l'enllaç de les icones amb un <i>tooltip</i>
+settings_right_xsmall_table_icons=Icones minúscules de les taules
+settings_right_xsmall_table_icons_description=Substitueix la mida estàndard de les icones de taules per una de molt petita i mostra l'enllaç de les icones amb un <i>tooltip</i>
+settings_right_animate_table_icons=Anima les icones de les taules en rebre el focus
+settings_right_grayscaled_table_icons=Mostra les icones de les taules en gris i posa-hi color només en rebre el focus
+
+settings_right_iconize_header_links=Substitueix els enllaços de les capçaleres de les taules per icones
+settings_right_iconize_header_links_description=Tria si s'han de substituir els antics enllaços de les capçaleres de les taules per icones o bé s'han de mantenir els enllaços de text
+
+settings_window_autoscroll=Desplaçament automàtic de la finestra
+settings_window_autoscroll_description=Executa el desplaçament automàtic de la finestra a mida que el servidor va emplenent la pàgina. El spinner s'amagarà automàticament en activar aquesta opció. El desplaçament efectuat expressament per l'usuari aturarà el desplaçament automàtic. Per reactivar-lo, cal fer doble desplaçament amb el ratolí des de baix de tot de la pàgina.
+
+settings_leftmenu_section_hide_refresh_modules=Amaga l'enllaç de refres dels mòduls
+settings_leftmenu_section_hide_unused_modules=Amaga l'enllaç dels mòduls sense utilitzar
+settings_favorites=Mostra el botó de preferits
+settings_leftmenu_button_language=Mostra el botó d'idioma
+settings_leftmenu_button_refresh=Mostra el botó de refresc
+
+settings_theme_options_button=Mostra el botó de paràmetres del tema
+
+settings_hotkeys_active=Activa l'ús de dreceres de teclat
+settings_hotkey_toggle_modifier=Modificador de dreceres de teclat
+settings_hotkey_toggle_key_webmin=Drecera de teclat per a Webmin
+settings_hotkey_toggle_key_virtualmin=Drecera de teclat per a Virtualmin
+settings_hotkey_toggle_key_cloudmin=Drecera de teclat per a Cloudmin
+settings_hotkey_toggle_key_usermin=Drecera de teclat per a Usermin
+settings_hotkey_toggle_key_webmail=Drecera de teclat per a Correu
+settings_hotkey_sysinfo=Drecera de teclat per a Informació del Sistema
+settings_hotkey_favorites=Drecera de teclat per als preferits
+settings_hotkey_focus_search=Drecera de teclat per al camp de cerca
+settings_hotkey_reload=Drecera de teclat per a recarregar la pàgina
+
+settings_sysinfo_background_call_timeout=Temps límit d'actualització de la informació en segon pla
+settings_sysinfo_background_call_timeout_description=Estableix el temps límit per a actualitzar la finestra de notificacions en crides en segon pla. El valor ha d'estar en minuts. El valor mínim recomanat és d'<code>1</code> minut. El valor per defecte són <code>10</code> minute. També es poden fer servir valors decimals.
+settings_sysinfo_easypie_charts=Mostra les gràfiques
+settings_sysinfo_theme_updates=Comprova si hio ha actualitzacions del Tema Authentic
+settings_sysinfo_csf_updates=Comprova si hi ha actualitzacions de Seguretat ConfigServer &  Tallafocs
+settings_sysinfo_drive_status_on_new_line=Mostra l'estat de la CPU i de les unitats cadascun en una nova línia
+settings_sysinfo_expand_all_accordions=Mostra tots els acordions expandits
+settings_sysinfo_link_mini=Mostra l'enllaç de la informació del sistema com un botó
+settings_leftmenu_singlelink_icons=Mostra les icones d'enllaços simples en un menú de navegació 
+
+settings_right_page_defaults_title=Pàgines per defecte
+settings_right_default_tab_webmin=Pestanya per defecte després d'entrar a Webmin
+settings_right_default_tab_usermin=Pestanya per defecte després d'entrar a Usermin
+settings_right_virtualmin_default=Pàgina per defecte de Virtualmin
+settings_right_cloudmin_default=Pàgina per defecte de Cloudmin
+
+settings_leftmenu_vm_installscripts=Mostra l'enllaç de scripts d'instal·lació a Virtualmin
+settings_leftmenu_vm_webpages=Mostra l'enllaç d'dició de pàgines web a Virtualmin
+settings_leftmenu_vm_backup_amazon=Mostra l'enllaç d'Amazon S3 buckets a Virtualmin
+
+settings_right_clear_local_cache=Esborra la mamòria cau
+settings_right_notification_slider_options_title=Opcions de la Finestra de Notificacions
+settings_notification_slider_fixed=Mantingues la finestra sempre visible
+settings_notification_color=Color de la finestra
+settings_hotkey_toggle_slider=Drecera de la Finestra de Notificacions
+settings_window_replace_timestamps=Activa la substituació de dates
+settings_window_replaced_timestamp_format_short=Format data/hora abreujat
+settings_window_replaced_timestamp_format_full=Format data/hora complet
+settings_window_replaced_timestamps_options_description=Modifica la configuració de la data/hora per a mostrar les dates en <a href="http://momentjs.com" target="_blank">format</a> complet o abreujat. <sup class="fa fa-question-circle" title='Aquesta opció no té un efecte global i només s'activa si el desenvolupador del mòdul utilitza disparadors especials. Qualsevol desenvolupador del mòdul pot simplement afegir l'atribut `data-convertible-timestamp-full="unix-timestamp"` o `data-convertible-timestamp-short="unix-timestamp"` al contenidor per a mostrar fàcilment dates definides per l'usuari.'></sup> Aquesta opció té efecte sobre la <i>Finestra de Notificacions</i> i la pàgina d'<i>Informació del Sistema</i> (a la fila <i>Hora del sistema</i>). Per defecte, el format complet és <code>dddd, MMMM D, YYYY h:mm:ss</code> i l'abreujat és <code>L, h:mm:ss</code>. L'hora és diferent per a <i>locales</i> diferents. El <i>locale</i> està basat en la configuració d'idioma de Webmin.
+
+settings_notification_slider_enabled=Activa el slider
+settings_leftmenu_user_html=Mostra snippet HTML
+settings_leftmenu_user_html_description=Eltext o el codi HTML definit per l'usuari s'injectarà al peu del menú de navegació. Es pot utilitzar per a propòsits d'identificació. Per exemple, per fer que es mostri explícitament el teu nom de host, hi podries afegir <code style="white-space: nowrap;">&lt;br&gt;&lt;kbd&gt;nomdehost:10000&lt;/kbd&gt;</code>
+
+
+theme_changelog=Registre de canvis
+theme_conference=Tema Conference
+theme_development_support=Suport al Desenvolupament
+theme_donate=Donacions
+theme_download=Descarrega
+theme_name=Tema Authentic
+theme_update=Actualitza
+theme_force_update=Força l'actualització
+theme_update_available=La darrera versió disponible
+theme_update_notice=Avís d'Actualització
+theme_version=Versió del Tema
+
+
+# Version 17.40
+theme_global_error=Error
+theme_global_warning=Avís
+theme_global_success=Èxit
+theme_global_info=Informació
+sysinfo_system_status_warning=Per tal de tenir mostrada la <strong>Informació del Sistema</strong> et caldrà activar el mòdul <em>Estat del Sistema</em> als paràmetres d'usuari.
+settings_leftmenu_section_hide_vm_and_cm_links=Amaga els enllaços dels mòduls suportats al menú de navegació
+settings_leftmenu_user_html_only_for_administrator=Mostra snippet HTML només per als administradors
+theme_sysinfo_wmdocs=Documentació de Webmin
+theme_sysinfo_vmdocs=Documentació de Virtualmin
+theme_sysinfo_cmdocs=Documentació de Cloudmin
+theme_fileformat_css=CSS
+theme_fileformat_json=JSON
+theme_fileformat_js=Javascript
+theme_fileformat_plain_text=Text Planer
+
+theme_xhred_titles_wm=Webmin
+theme_xhred_titles_um=Usermin
+theme_xhred_titles_dashboard=Plafó
+theme_xhred_titles_mail=Correu
+theme_xhred_titles_vm=Virtualmin
+theme_xhred_titles_cm=Cloudmin
+theme_xhred_titles_thirdlane=Thirdlane
+
+theme_xhred_global_please_wait=Espera, si et plau...
+theme_xhred_filemanager_copying_selected=S'està copiant la selecció.
+theme_xhred_filemanager_cutting_selected=S'està retallant la selecció.
+theme_xhred_filemanager_pasting_selected=S'està enganxant del portapapers.
+theme_xhred_filemanager_unpacking_archive=S'està desempaquetant l'arxiu.
+theme_xhred_filemanager_deleting_selected=S'està suprimint la selecció.
+theme_xhred_filemanager_renaming_selected=S'està renomenant la selecció.
+theme_xhred_filemanager_creating_folder=S'està creant el directori
+theme_xhred_filemanager_creating_file=S'està creant el fitxer
+theme_xhred_filemanager_downloading_from=S'està baixant de
+theme_xhred_filemanager_setting_permissions=S'estan aplicant els permisos <samp><em>%value</em></samp> sobre el(s) fitxer(s) seleccionat(s).
+theme_xhred_filemanager_changing_ownership=S'està canviant a <samp><em>%value</em></samp> el propietari del(s) fitxer(s) seleccionat(s).
+theme_xhred_filemanager_compressing_selected=S'està comprimint la selecció.
+theme_xhred_filemanager_refreshing=S'està refrescant el contingut del directori.
+theme_xhred_filemanager_copying_successful=S'ha copiat amb èxit al portapapers
+theme_xhred_filemanager_cutting_successful=S'ha retallat amb èxit al portapapers.
+theme_xhred_filemanager_pasting_successful=S'ha enganxat amb èxit al portapapers.
+theme_xhred_filemanager_bookmark_success=S'ha afegit amb èxit el directori <samp><em>%value</em></samp> al portapapers.
+theme_xhred_filemanager_searching=S'estan buscant noms de fitxers/directoris que coincideixin amb <em>`%value`</em>.
+theme_xhred_filemanager_search_founds=S'han trobat <samp>%value</samp> coincidèncied.
+theme_xhred_filemanager_search_found=S'ha trobat <samp>1</samp> coincidències.
+theme_xhred_filemanager_search_no_matches=No s'ha trobat cap coincidència.
+theme_xhred_filemanager_nothing_is_selected=No has seleccionat res!
+theme_xhred_filemanager_saving_file=S'està desant el fitxer `<samp><em>%value</em></samp>`.
+theme_xhred_filemanager_file_saved=El fitxer `<samp><em>%value</em></samp>` s'ha desat amb èxit.
+theme_xhred_filemanager_not_editable=No es pot editar aquest tipus de selecció.
+theme_xhred_filemanager_not_decompressable=No es pot descomprimir aquest tipus de fitxer.
+theme_xhred_filemanager_no_selection_to_copy=No has seleccionat cap directori/fitxer per copiar.
+theme_xhred_filemanager_no_selection_to_cut=No has seleccionat cap directori ni fitxer per retallar.
+theme_xhred_filemanager_empty_clipboard=El portapapers està buit.
+
+theme_xhred_filemanager_successful_extraction=L'extracció ha reeixit.
+theme_xhred_filemanager_successful_deletion=La supressió ha reeixit.
+theme_xhred_filemanager_successful_permissions=Els permisos s'han canviat correctament.
+theme_xhred_filemanager_successful_ownership=La propietat s'ha canviat correctament.
+theme_xhred_filemanager_successful_compression=La compressió ha acabat correctament.
+theme_xhred_filemanager_successful_directory_creation=S'ha creat correctament el directori `<samp>%value</samp>`.
+theme_xhred_filemanager_successful_file_creation=S'ha creat correctament el fitxer `<samp>%value</samp>`.
+
+theme_xhred_notifications_packages_updates=Actualització de Paquets
+theme_xhred_notifications_theme_update=Actualització de Tema
+theme_xhred_notifications_theme_update_message=Hi ha una nova versió <em>%v</em> disponible del <strong>Tema Authentic</strong>. Actualitza'l, si et plau.
+theme_xhred_notifications_firewall_update=Actualització del Tallafocs
+theme_xhred_notifications_firewall_update_message=Hi ha una nova versió <em>%v</em> disponible del <strong>ConfigServer Server Security and Firewall</strong> . Actualitza'l, si et plau.
+
+theme_xhred_notifications_firewall_danger=Perill al Tallafocs
+theme_xhred_notifications_firewall_danger_message=Sembla que <strong>ConfigServer Server Security and Firewall</strong> <span class="badge badge-danger">no s'està executant</span> o bé s'ha aturat! No deixis el teu servidor exposat, comprova la configuració del tallafocs (%v)
+
+theme_xhred_notifications_firewall_warning=Avís del tallafocs
+
+#17.50
+settings_force_default_tab=Força la pestanya per defecte de Webmin
+settings_force_default_tab_description=Aquesta característica també forçarà la pestanya per defecte de la finestra de recàrrega. Compte! No serà possible triar la pestanya desitjada utilitzabt un URL, ja que s'ignorarà tota petició d'ubicació.
+
+settings_grayscale_level_navigation=Filtre d'escala de grisos
+settings_grayscale_level_navigation_description=Valors per defecte/actuals <code>0</code>/<code data-name="settings_grayscale_level_navigation">0</code>
+settings_sepia_level_navigation=Filtre sèpia
+settings_sepia_level_navigation_description=Valors per defecte/actuals <code>0</code>/<code data-name="settings_sepia_level_navigation">0</code>
+settings_saturate_level_navigation=Filtre de saturació
+settings_saturate_level_navigation_description=Valors per defecte/actuals <code>1</code>/<code data-name="settings_saturate_level_navigation">0</code>
+settings_hue_level_navigation=Filtre de rotació de tonalitats
+settings_hue_level_navigation_description=Valors per defecte/actuals <code>0</code>°/<code data-name="settings_hue_level_navigation">0</code>°
+settings_invert_level_navigation=Filtre d'inversió
+settings_invert_level_navigation_description=Valors per defecte/actuals <code>0</code>/<code data-name="settings_invert_level_navigation">0</code>
+settings_brightness_level_navigation=Filtre de lluentor
+settings_brightness_level_navigation_description=Valors per defecte/actuals <code>1</code>/<code data-name="settings_brightness_level_navigation">0</code>
+settings_contrast_level_navigation=Filtre de contrast
+settings_contrast_level_navigation_description=Valors per defecte/actuals <code>1</code>/<code data-name="settings_contrast_level_navigation">0</code>
+
+settings_grayscale_level_content=Filtre d'escala de grisos
+settings_grayscale_level_content_description=Valors per defecte/actuals <code>0</code>/<code data-name="settings_grayscale_level_content">0</code>
+settings_saturate_level_content=Filtre de saturació
+settings_saturate_level_content_description=Valors per defecte/actuals <code>1</code>/<code data-name="settings_saturate_level_content">0</code>
+settings_hue_level_content=Filtre de rotació de tonalitats
+settings_hue_level_content_description=Valors per defecte/actuals <code>0</code>°/<code data-name="settings_hue_level_content">0</code>°
+
+settings_cm_view_palette=Paleta de colors del visualitzador
+settings_cm_editor_palette=Paleta de colors de l'editor
+
+theme_xhred_filemanager_context_select_all=Selecciona-ho Tot
+theme_xhred_filemanager_context_select_invert=Inverteix la Selecció
+theme_xhred_filemanager_context_refresh=Refresca
+theme_xhred_filemanager_context_newfile=Crea un nou fitxer
+theme_xhred_filemanager_context_newfoder=Crea un nou directori
+theme_xhred_filemanager_context_copy=Copia
+theme_xhred_filemanager_context_cut=Retalla
+theme_xhred_filemanager_context_paste=Enganxa
+theme_xhred_filemanager_context_chmod=Canvia els Permisos
+theme_xhred_filemanager_context_chown=Canvia el Propietari
+
+#17.51
+theme_xhred_filemanager_context_new=Nou
+theme_xhred_filemanager_context_newarchive=Crea un nou arxiu
+theme_xhred_filemanager_context_delete=Suprimeix
+theme_xhred_filemanager_context_rename=Renomena
+theme_xhred_filemanager_context_edit=Edita
+theme_xhred_filemanager_context_extract=Extreu
+theme_xhred_filemanager_context_goto=Obre la Ubicació d'un Ítem
+theme_xhred_filemanager_context_properties=Propietats
+theme_xhred_filemanager_context_search=Cerca
+
+#17.52
+theme_xhred_filemanager_context_deselect_all=Desselecciona-ho Tot
+theme_xhred_filemanager_context_upload=Puja-ho al directori actual
+theme_xhred_filemanager_context_download=Baixa-ho de l'URL al directori actual
+
+#17.53
+theme_settings_virtualmin=Servidors Virtuals Virtualmin
+theme_settings_cloudmin=Sistemes Gestionats amb Cloudmin
+settings_right_thirdparties_options_title=Opcions dels mòduls de terceres parts
+theme_xhred_filemanager_context_calculate_size=Calcula la mida del directori
+theme_xhred_filemanager_context_bookmarks=Preferits
+theme_xhred_filemanager_context_bookmark_current=Marca el camí obert actualment
+theme_xhred_filemanager_context_transfer=Transfereix
+
+#17.54
+theme_xhred_filemanager_title_symlink_target=Enllaça l'objectiu
+
+#17.60
+right_unlimited=Il·limitat
+settings_leftmenu_width=Amplada preferible
+settings_leftmenu_width_description=Amplada per defecte/actual <code>260</code>/<code data-name="settings_leftmenu_width">0</code>
+settings_switch_rdisplay=Inverteix la sortida dels botons
+settings_switch_rdisplay_description=Aquesta opció et permet establir ordres diferents per als botons de dalt a l'esquerra. Després de canviar aquesta opció, cal una recàrrega completa de la pàgina per a aplicar els nous paràmetres.
+
+#17.63
+theme_xhred_filemanager_context_calculate_selected_size=Calcula la mida seleccionada
+theme_xhred_filemanager_selected_entries=Selecció: %value entrades
+theme_xhred_filemanager_manual_path=Introdueix el camí manualment
+
+theme_xhred_datatable_semptytable=No hi ha dades disponibles a la taula
+theme_xhred_datatable_sinfo=S'estan mostranr l'es entrades de _START_ a _END_ 
+theme_xhred_datatable_sinfoempty=S'estan mostrant 0 de 0 de 0 entrdes
+theme_xhred_datatable_slengthmenu=Mostra les entrades _MENU_
+theme_xhred_datatable_sloadingrecords=S'està carregant...
+theme_xhred_datatable_sprocessing=S'està processant...
+theme_xhred_datatable_szerorecords=No s'ha trobat cap registre coincident
+
+#17.64
+theme_xhred_filemanager_file_edit_but_not_saved=S'ha editat el fitxer però no s'ha desat.
+theme_xhred_filemanager_file_edit_but_not_saved_what_to_do=Què vols fer?
+theme_xhred_global_save=Desa
+theme_xhred_global_save_and_close=Desa i tanca
+theme_xhred_global_close_without_saving=Tanca sense desar
+theme_xhred_global_continue_editing=Continua editnt
+theme_xhred_filemanager_context_download_file=Baixa
+
+#17.65
+settings_sysinfo_easypie_charts_width=Amplada de les gràfiques
+settings_sysinfo_easypie_charts_scale=Llargària de l'escala de les gràfiques
+
+#17.72
+settings_window_exclusion_description=Estableix la llista de mòduls que s'exclouran del mecanisme de renderització integrat. Aquesta característica proporcionarà suport per a mòduls desfasats/compilats voluntàriament que no es mostren adequadament. Per desactivar la renderització de certs mòduls, n'has d'especificar el nom. El nom del mòdul es basa en el nom del seu directori i es pot trobar passant el ratolí per sobre del seu enllaç al menú de navegació. També és possibñe de passar un simple asterisc <kbd>*</kbd> per a desactivar la renderització integrada per a tots els mòduls.
+settings_window_exclusion_list=Mòduls a excloure
+
+#17.80
+> right_return_theme_options=theme options
+> theme_xhred_datatable_semptydirectory=Directory is empty
+> theme_xhred_filemanager_context_clipboard=Copy path to clipboard
+> theme_xhred_global_warning=Warning
+> theme_xhred_global_close=Close
+> theme_xhred_encoding_warning=Detected that you are using <code>%charset</code> character set and not <code>utf-8</code>, which is strongly recommended. Strange <tt>Â</tt> character might appear in text-editor mode and/or other encoding issues are going to happen. <br><br>Change language in <a href="%link" class="label label-primary"><strong><i class="fa fa-cog"></i> %prod Configuration</strong></a> to <code>%lang.UTF-8</code> and make sure, that your browser also detected it correctly. <span class="_hidden_"><br><br>Pay attention, that <em>Webmin</em> in-built module, named <em>Change Language and Theme</em> can override global settings.</span>
+
+> theme_xhred_filemanager__no_bookmarks=No saved bookmarks
+> theme_xhred_filemanager_unbookmark_success=Directory <samp><em>%value</em></samp> was successfully removed from your bookmarks.
+> theme_xhred_filemanager_bookmark=Bookmark current directory
+> theme_xhred_filemanager_unbookmark=Unbookmark current directory
+> theme_xhred_filemanager_move_into_self=You cannot move a directory into itself! The destination directory is inside the source directory.
+> theme_xhred_filemanager_pasting_and_copying_1=Selected source has been pasted with the new name successfully.
+> theme_xhred_filemanager_pasting_and_copying_2=Selected sources have been pasted with the new names successfully.
+> theme_xhred_filemanager_pasting_and_replacing_1=Existing target has been replaced with new successfully.
+> theme_xhred_filemanager_pasting_and_replacing_2=Existing targets have been replaced with new successfully.
+> theme_xhred_filemanager_target_conflict_1=Target conflic
+> theme_xhred_filemanager_target_conflict_2=Targets conflics
+> theme_xhred_filemanager_target_conflict_message_1=Pasted target already exists! What do you prefer to do?
+> theme_xhred_filemanager_target_conflict_message_2=Pasted targets already exist! What do you prefer to do?
+> theme_xhred_filemanager_target_conflict_replace=Merge and replace
+> theme_xhred_filemanager_target_conflict_paste=Paste with new name
+
+> theme_xhred_editor_help_title=Editor Keyboard Shortcuts
+> theme_xhred_editor_help_content=<i class="hidden theme_xhred_editor_help"></i><h5><strong>Find/Replace</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Keypress</th> <th class="head">Command</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + F</td> <td>Find</td> </tr> <tr><td>Ctrl + H</td> <td>Replace</td> </tr> <tr><td>Ctrl + ¿ + R</td> <td>Replace all</td> </tr> <tr><td>Ctrl + G</td> <td>Find next</td> </tr> <tr><td>Ctrl + ¿ +  G</td> <td>Find previous</td> </tr> <tr><td>Alt + G</td> <td>Jump to line</td> </tr> </tbody> </table> <h5><strong>Text manipulation</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Keypress</th> <th class="head">Command</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + KU</td> <td>Transform to Uppercase</td> </tr> <tr><td>Ctrl + KL</td> <td>Transform to Lowercase</td> </tr> </tbody> </table> <h5><strong>Editing</strong></h5> <table class="table table-condensed table-hover"> <colgroup> <col width="30%"> <col width="70%"> </colgroup> <thead valign="bottom"> <tr><th class="head">Keypress</th> <th class="head">Command</th> </tr> </thead> <tbody valign="top"> <tr><td>Ctrl + Space</td> <td>Activate autocompletion</td> </tr> <tr><td>Ctrl + X</td> <td>Cut line</td> </tr> <tr><td>Ctrl + ¿ + ¿</td> <td>Move line/selection up</td> </tr> <tr><td>Ctrl + ¿ + ¿</td> <td>Move line/selection down</td> </tr> <tr><td>Ctrl + L</td> <td>Select line - Repeat to select next lines</td> </tr> <tr><td>Ctrl + D</td> <td>Select word - Repeat select others occurrences</td> </tr> <tr><td>Ctrl + M</td> <td>Jump to closing parentheses Repeat to jump to opening parentheses</td> </tr> <tr><td>Ctrl + ¿ + M</td> <td>Select all contents of the current parentheses</td> </tr> <tr><td>Ctrl + ¿ + K</td> <td>Delete Line</td> </tr> <tr><td>Ctrl + KK</td> <td>Delete from cursor to end of line</td> </tr> <tr><td>Ctrl + K + Backspace</td> <td>Delete from cursor to start of line</td> </tr> <tr><td>Ctrl + ¿ + D</td> <td>Duplicate line(s)</td> </tr> <tr><td>Ctrl + J</td> <td>Join line below to the end of the current line</td> </tr> <tr><td>Ctrl + /</td> <td>Comment/un-comment current line</td> </tr> <tr><td>Ctrl + ¿ + /</td> <td>Block comment current selection</td> </tr> <tr><td>Ctrl + Y</td> <td>Redo, or repeat last keyboard shortcut command</td> </tr> <tr><td>Ctrl + ¿ + V</td> <td>Paste and indent correctly</td> </tr> <tr><td>Ctrl + Space</td> <td>Select next auto-complete suggestion</td> </tr> <tr><td>Ctrl + U</td> <td>soft undo; jumps to your last change before undoing change when repeated</td> </tr> </tbody> </table>
+
+> theme_xhred_filemanager_hide_toolbar=Hide toolbar
+> theme_xhred_filemanager_hide_actions=Hide actions column
+> theme_xhred_filemanager_hovered_toolbar=Activate dropdown in toolbar on mouse hover
+> theme_xhred_filemanager_context_delete_selected=Delete selected
+
+#17.83
+> theme_xhred_database_adding_new_row=Adding new row
+> theme_xhred_database_editing_row=Editing selected row
+> theme_xhred_database_editing_rows=Editing selected rows
+> theme_xhred_database_adding_new_row_data=Set data
+
+#17.84
+> theme_xhred_datatable_filter=Filter
+
+> theme_xhred_global_update=Update
+> theme_xhred_global_update_and_return=Update and return
+> theme_xhred_global_update_and_close=Update and close
+> theme_xhred_global_back=Back
+> theme_xhred_global_cancel=Cancel
+
+> theme_xhred_database_add_row_successful=New row was successfully added
+> theme_xhred_database_edit_row_successful=Selected row was successfully updated
+> theme_xhred_database_edit_rows_successful=Selected rows were successfully updated
+> theme_xhred_database_edit_row_delete_successful=Selected row was successfully deleted
+> theme_xhred_database_edit_rows_delete_successful=Successfully deleted <em>%n</em> selected rows
+> theme_xhred_database_edit_field_delete_successful=Selected field was successfully deleted
+> theme_xhred_database_edit_fields_delete_successful=Successfully deleted <em>%n</em> selected fields
+> theme_xhred_database_edit_selected_row=Edit selected row
+> theme_xhred_database_edit_selected_rows=Edit selected rows
+> theme_xhred_database_add_new_row=Add row
+> theme_xhred_database_delete_selected_row=Delete selected row
+> theme_xhred_database_delete_selected_rows=Delete selected rows
+> theme_xhred_database_delete_selected_field=Delete selected field
+> theme_xhred_database_delete_selected_fields=Delete selected fields
+> theme_xhred_database_object_selected_delete=Delete selected object
+> theme_xhred_database_objects_selected_delete=Delete selected objects
+> theme_xhred_database_db_selected_drop=Drop selected database
+> theme_xhred_database_dbs_selected_drop=Drop selected databases
+> theme_xhred_database_edit_but_not_saved=Table data has been edited but not saved.
+
+> theme_xhred_global_no_such_command=It appears that <tt>%cmd</tt> executable is not installed or not in the path on your system.
+
+> theme_xhred_global_notice=Notice
+
+> theme_xhred_updates_disabled_notice=Detected that you don't have enabled notifications for <em>Authentic Theme</em> updates? <br><br>Enabling this feature in <a href="%link" class="label label-default"><strong><i class="fa fa-cogs"></i> Theme Configuration</strong></a> will help you to update to the latest version in a single click as soon as it's out.
+
+
+> #18.00
+> theme_xhred_global_file=File
+> theme_xhred_global_directory=Directory
+> theme_xhred_global_no_target=Target doesn't exist or not accessible
+> theme_xhred_global_error_code=Error code
+> theme_xhred_global_on=On
+> theme_xhred_global_off=Off
+> theme_xhred_global_all=All
+> theme_xhred_global_none=None
+> theme_xhred_global_yes=Yes
+> theme_xhred_global_no=No
+
+> theme_xhred_filemanager_new_tab=Add New Tab (Ctrl+Space)
+> theme_xhred_datatable_no_search_results=<span class="h5">No results found</span><br>Try a different search
+
+> theme_xhred_filemanager_buffer_error=Failed to paste files to the buffer - permission denied.
+
+> filemanager_create_object_exists=$3 `<samp><em>$1</em></samp>` already exists in `<samp><tt>$2</tt></samp>`
+> filemanager_create_object_denied=Can't create $3 `<samp><em>$1</em></samp>` in `<samp><tt>$2</tt></samp>` - permission denied.
+
+> filemanager_paste_warning=Failed to paste target(s). It is possible that requested object(s) could have been <em>renamed, moved</em> or <em>deleted</em> while/before pasting. Another possible cause is that destination is not writable.  It is worth checking objects' attributes.
+
+> theme_xhred_filemanager_delete_warning=Deletion has finished successfully but not for all objects. It is possible that requested object(s) could have been <em>renamed</em> or <em>moved</em> before deletion. Restricted permissions (attributes) is another possible cause.  Error message:
+
+
+> filemanager_rename_exists=$3 with name `<samp><em>$1</em></samp>` already exists in `<samp><tt>$2</tt></samp>`
+> filemanager_rename_denied=Can not rename the $3. This might happen because the source $3 has been removed or due to restricted permissions.
+
+> theme_xhred_filemanager_successful_rename=Renaming `<samp><em><s>%from</s></em></samp>` to `<samp><em>%to</em></samp>` was successful.
+
+> filemanager_global_info_total1=Total: $1 file and $2 directory
+> filemanager_global_info_total2=Total: $1 files and $2 directory
+> filemanager_global_info_total3=Total: $1 file and $2 directories
+> filemanager_global_info_total4=Total: $1 files and $2 directories
+
+> theme_xhred_filemanager_selected_entry=Selected: %value entry
+
+> theme_xhred_filemanager_search_query=Query mask
+> theme_xhred_filemanager_search_match=Find in results
+> theme_xhred_filemanager_search_replace=Replace in results
+
+> theme_xhred_global_find=Find
+> theme_xhred_global_replace=Replace
+
+> theme_xhred_filemanager_searching_matching=Searching for <em>`%value`</em> matching names of files/directories, containing <em>`%text`</em> text.
+> theme_xhred_filemanager_searching_replacing=Replacing matches <em>`%text`</em> with <em>`%replace`</em> in files with names containing <em>`%value`</em>.
+
+> theme_xhred_filemanager_search_replaced_multi=Found and replaced in <samp>%value</samp> files.
+> theme_xhred_filemanager_search_replaced=Found and replaced in <samp>1</samp> file.
+
+> theme_xhred_filemanager_successful_permissions_with_errors=Permissions have been changed successfully but not for all objects:
+
+> theme_xhred_filemanager_successful_ownership_with_errors=Ownership has not been changed successfully for all objects:
+> theme_xhred_filemanager_successful_ownership_with_errors_fatal=Ownership can't be changed due to following errors:
+
+> theme_xhred_filemanager_successful_compression_with_errors=Compression has finished with the following errors:
+> theme_xhred_filemanager_successful_compression_bg=Compression has successfully finished. Compressed file <samp>`%file</samp> is located in <samp>`%path`</samp> directory.
+> theme_xhred_filemanager_successful_compression_bg_with_errors=Compression has finished with errors. Compressed file <samp>`%file</samp> should be located in <samp>`%path`</samp> directory.
+
+> theme_xhred_filemanager_settings_notification_type=Type of notifications to display
+> theme_xhred_filemanager_settings_notification_type_inf_warn_err=Informations, warnings and errors
+> theme_xhred_filemanager_settings_notification_type_warn_err=Warnings and errors
+> theme_xhred_filemanager_settings_notification_type_err=Errors only
+
+> theme_xhred_filemanager_settings_tabs_remember_state=Restore previously used tabs on first load
+> theme_xhred_filemanager_context_open_new_tab=Open in new tab
+
+> theme_xhred_xsql_fit_content_screen_height=Fit database table content in screen height
+
+> theme_xhred_datatable_filter_visible_tables=Filter Visible Table(s)
+> theme_xhred_module_help=Module Help
+
+> theme_xhred_server_process_running=Server process is still running!? Are you sure that you want to navigate away and have no access to output information? Even if you leave now the process will not be terminated.
+
+
+#18.03
+settings_global_options_title=Opcions globals
+settings_global_passgen_format=Generador de contrasenyes
+settings_global_passgen_format_description=Estableix la llargada i tipus de caràcters utilitzats en la contrasenya generada. El primer valor és numèric, que és la llargada de la contrasenya, seguit immediatament per <code>|</code> com a separador. Després hi vé el tipus, on pots utilitzar els números <code>0-9</code>, les lletres <code>a-z</code> i/o <code>A-Z</code>, i caràcters especials <code>#</code>. Tots aquests conjunts es poden utilitzar conjuntament o individualment, fent servir una coma com a separador. El valor per defecte és <code>12|a-z,A-Z,0-9,#</code>, que representa una contrasenya de 12 caràcters de llarg que conté lletres majúscules i minúscules, números i caràcters especials.
+theme_xhred_password_generator_new=Genera Una Nova Contrasenya<br> (Al Portapapers)
+theme_xhred_password_generator_new_success=La contrasenya generada %password s'ha copiat correctament al portapapers.
+
+
+#18.08
+theme_fileformat_perl=Perl
+theme_fileformat_perl_placeholder=Aquest fitxer s'ha d'acabar amb un `1;` per tal que funcioni correctament (http://stackoverflow.com/questions/1940182/what-does-1-mean-in-perl).
+
+
+#18.10
+theme_error_access_not_root=S'ha denegat l'accés: L'usuari necessita accés al mòdul de <em>Configuració de Webmin</em> per editar la configuració del tema
+ 

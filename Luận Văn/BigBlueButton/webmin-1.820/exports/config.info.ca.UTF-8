@@ -1,0 +1,4 @@
+apply_cmd=Ordre per aplicar la configuració,3,Cap
+exports_file=Fitxer de sistemes de fitxers exportats,0
+restart_command=Ordre per reiniciar el servidor d'exportacions,0
+line2=Configuració del sistema,11

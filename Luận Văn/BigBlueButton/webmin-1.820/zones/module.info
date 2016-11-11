@@ -1,0 +1,10 @@
+desc_ca=Zones Solaris
+longdesc_ca=Crea i gestiona zones Solaris 10.
+version=1.820
+nozone=1
+longdesc=Create and manage Solaris 10 zones.
+os_support=solaris/10-*
+desc=Solaris Zones
+category=system
+depends=net mount time useradmin 1.820
+desc_ca.UTF-8=Zones Solaris

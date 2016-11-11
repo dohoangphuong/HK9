@@ -1,0 +1,16 @@
+desc_ca=Servidor de Correu Exim
+desc_ms_MY=Pelayan Mail Exim
+version=1.820
+name=Exim Mail Server
+desc_pl=Exim - serwer poczty
+desc=Exim Mailserver
+desc_nl=Exim Mailserver
+category=servers
+hidden=1
+desc_hu=Levelezı szerver (Exim)
+depends=1.820
+desc_pl.UTF-8=Exim - serwer poczty
+desc_ms_MY.UTF-8=Pelayan Mail Exim
+desc_hu.UTF-8=Levelez≈ë szerver (Exim)
+desc_ca.UTF-8=Servidor de Correu Exim
+desc_nl.UTF-8=Exim Mailserver

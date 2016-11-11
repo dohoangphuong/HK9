@@ -1,0 +1,16 @@
+desc_ca=Objectius iSCSI
+longdesc_ca=Comparteix els dispositius de disc a través de la xarxa utilitzant el protocol iSCSI amb el paquet iscsitarget.
+desc_ms_MY=Sasaran iSCSI
+version=1.820
+longdesc=Share disk devices across the network using the iSCSI protocol with the iscsitarget package.
+os_support=*-linux
+desc_de=iSCSI-Target 
+desc_no=iSCSI-m&#229;l
+desc=iSCSI Target
+longdesc_ms_MY=Berkongsi peranti disk di seluruh rangkaian menggunakan protokol iSCSI dengan pakej iscsitarget.
+category=hardware
+depends=fdisk lvm raid init 1.820
+desc_de.UTF-8=iSCSI-Target 
+desc_ms_MY.UTF-8=Sasaran iSCSI
+desc_ca.UTF-8=Objectius iSCSI
+desc_no.UTF-8=iSCSI-m&#229;l

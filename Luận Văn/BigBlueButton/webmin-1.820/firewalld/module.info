@@ -1,0 +1,15 @@
+desc_ca=FirewallD
+longdesc_ca=Configura un tallfocs Linux utilitzant FirewallD, bo i editant els serveis i els ports
+longdesc_de=Konfiguriert eine Linux-Firewall mit FirewallD, indem es erlaubte Dienste und Ports editiert.
+version=1.820
+longdesc=Configure a Linux firewall using FirewallD, by editing allowed services and ports.
+desc_pl=FirewallD
+os_support=*-linux
+desc_de=FirewallD
+desc=FirewallD
+category=net
+longdesc_pl=Konfiguracja Firewalla Linuksa u¿ywaj±c FirewallD, poprzez edytowanie dozwolonych us³ug i portów.
+depends=net init 1.820
+desc_de.UTF-8=FirewallD
+desc_pl.UTF-8=FirewallD
+desc_ca.UTF-8=FirewallD

@@ -1,0 +1,12 @@
+desc_ca=Tallafocs Linux IPv6
+longdesc_ca=Configura un tallafocs Linux utilitzant ip6tables. Permet l'edició de totes les taules, cadenes, regles i opcions.
+version=1.820
+longdesc=Configure a Linux firewall using ip6tables. Allows the editing of all tables, chains, rules and options.
+name=Firewall6
+desc_de=Linux-Firewallv6
+os_support=*-linux
+desc=Linux IPv6 Firewall
+category=net
+depends=1.820
+desc_de.UTF-8=Linux-Firewallv6
+desc_ca.UTF-8=Tallafocs Linux IPv6
