@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+<struts>
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.custom.i18n.resources"
+        value="ApplicationResources" />
+        
+ 
+    <package name="default" extends="struts-default,json-default" namespace="/">
+        <action name="login"
+            class="net.viralpatel.struts2.action.LoginAction">
+            <result name="success">SelectMode.jsp</result>
+            <result name="error">Login.jsp</result>
+            <result name="error1">Login.jsp</result>
+            <result name="error2">Login.jsp</result>
+        </action>
+       <action name="selecth"
+            class="net.viralpatel.struts2.action.SelectModeAction">
+            <result name="logout">Login.jsp</result>
+            <result name="add">AddH.jsp</result>
+            <result name="edit">EditH.jsp</result>
+            <result name="error">Error.jsp</result>
+        </action>
+        <action name="selectz"
+            class="net.viralpatel.struts2.action.SelectModeAction" method="executeManz_z">
+            <result name="add">AddZ.jsp</result>
+            <result name="edit">EditZ.jsp</result>
+            <result name="error">Error.jsp</result>
+        </action>
+         <action name="logout">
+            <result>Login.jsp</result>
+        </action>
+        <action name="addH"
+            class="net.viralpatel.struts2.action.AddAction" method="executeManH">
+            <result type="json">
+        		<param name="excludeNullProperties">true</param>
+        		<param name="noCache">true</param>
+   			</result>
+        </action>
+         <action name="addZ"
+            class="net.viralpatel.struts2.action.AddAction" method="executeManZ">	
+        	<result type="json">
+        		<param name="excludeNullProperties">true</param>
+        		<param name="noCache">true</param>
+   			</result>
+        </action>
+        <action name="editH"
+            class="net.viralpatel.struts2.action.EditAction" method="executeManH">	
+        	<result type="json">
+        		<param name="excludeNullProperties">true</param>
+        		<param name="noCache">true</param>
+   			</result>
+        </action>
+   		<action name="editZ"
+            class="net.viralpatel.struts2.action.EditAction" method="executeManZ">	
+        	<result type="json">
+        		<param name="excludeNullProperties">true</param>
+        		<param name="noCache">true</param>
+   			</result>
+        </action>
+    </package>
+</struts>
