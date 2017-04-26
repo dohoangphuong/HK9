@@ -16,7 +16,8 @@ import org.hibernate.classic.Session;
 public class AuthenticateLogic extends HibernateUtil {
 
 	/**
-	 * Get 品目名 from table manz_z10f from the value 品目k of table manz_h10f and the value 品目k of table manz_z10f
+	 * Get 品目名 from table manz_z10f with the value 品目k of table manz_h10f and the value 品目k of table manz_z10f
+	 * Notice: All query select with where is '品目k' then it always is a list object, because '品目k' isn't primary key, so the result is List<manz_z10f>
 	 * @param 品目k: It is value of Object manz_h10f
 	 * @return 品目名: have value
 	 * @return null: is null
@@ -26,12 +27,13 @@ public class AuthenticateLogic extends HibernateUtil {
 				.getCurrentSession();
 		try {
 			hbSession.beginTransaction();
-			manz_z10f man_z = (manz_z10f) hbSession
+			@SuppressWarnings("unchecked")
+			List<manz_z10f> man_z = (List<manz_z10f>) hbSession
 					.createQuery("Select u from manz_z10f u where u.品目k = :品目k")
-					.setParameter("品目k", 品目k).uniqueResult();
+					.setParameter("品目k", 品目k).list();
 
 			if (man_z != null)
-				return man_z.get品目名();
+				return man_z.get(0).get品目名();
 
 			hbSession.getTransaction().commit();
 		} catch (Exception e) {
@@ -43,7 +45,7 @@ public class AuthenticateLogic extends HibernateUtil {
 	}
 
 	/**
-	 * Get 品番 from table manz_h10f from the value 発注noof table manz_h10f and the value 発注no of table manz_z10f
+	 * Get 品番 from table manz_h10f with the value 発注no of table manz_h10f and the value 発注no of table manz_z10f
 	 * @param 発注no: It is value of Object manz_h10f
 	 * @return 品番: have value
 	 * @return null: is null
@@ -53,13 +55,14 @@ public class AuthenticateLogic extends HibernateUtil {
 				.getCurrentSession();
 		try {
 			hbSession.beginTransaction();
-			manz_h10f man_h = (manz_h10f) hbSession
+			@SuppressWarnings("unchecked")
+			List<manz_h10f> man_h = (List<manz_h10f>) hbSession
 					.createQuery(
 							"Select u from manz_h10f u where u.発注no = :発注no")
-					.setParameter("発注no", 発注no).uniqueResult();
+					.setParameter("発注no", 発注no).list();
 
 			if (man_h != null)
-				return man_h.get品番();
+				return man_h.get(0).get品番();
 
 			hbSession.getTransaction().commit();
 		} catch (Exception e) {
@@ -248,14 +251,15 @@ public class AuthenticateLogic extends HibernateUtil {
 			hbSession.beginTransaction();
 
 			// Update the value of 品目名
-			manz_z10f man_z = (manz_z10f) hbSession
+			@SuppressWarnings("unchecked")
+			List<manz_z10f> man_z = (List<manz_z10f>) hbSession
 					.createQuery("Select u from manz_z10f u where u.品目k = :品目k")
-					.setParameter("品目k", dataManz_h.get品目k()).uniqueResult();
+					.setParameter("品目k", dataManz_h.get品目k()).list();
 			if (man_z != null) {
-				if (man_z.get品目c() != null && dataManz_hEdit.get品目名() != null
+				if (man_z.get(0).get品目c() != null && dataManz_hEdit.get品目名() != null
 						&& !dataManz_hEdit.get品目名().equals("")) {
-					man_z.set品目名(dataManz_hEdit.get品目名());
-					hbSession.update(man_z);
+					man_z.get(0).set品目名(dataManz_hEdit.get品目名());
+					hbSession.update(man_z.get(0));
 				}
 			}
 
@@ -310,15 +314,16 @@ public class AuthenticateLogic extends HibernateUtil {
 		try {
 			hbSession.beginTransaction();
 			// Update the value of 品番
-			manz_h10f man_h = (manz_h10f) hbSession
+			@SuppressWarnings("unchecked")
+			List<manz_h10f> man_h = (List<manz_h10f>) hbSession
 					.createQuery(
 							"Select u from manz_h10f u where u.発注no = :発注no")
-					.setParameter("発注no", dataManz_z.get発注no()).uniqueResult();
+					.setParameter("発注no", dataManz_z.get発注no()).list();
 
 			if (man_h != null) {
-				if (man_h.get発注no() != null && dataManz_zEdit.get品番() != null
+				if (man_h.get(0).get発注no() != null && dataManz_zEdit.get品番() != null
 						&& !dataManz_zEdit.get品番().equals(""))
-					man_h.set品番(dataManz_zEdit.get品番());
+					man_h.get(0).set品番(dataManz_zEdit.get品番());
 				hbSession.update(man_h);
 			}
 
@@ -356,7 +361,8 @@ public class AuthenticateLogic extends HibernateUtil {
 				if (man_h != null) {
 					return 2;
 				}
-				manz_z10f data = (manz_z10f) hbSession
+				@SuppressWarnings("unchecked")
+				List<manz_z10f> data = (List<manz_z10f>) hbSession
 						.createQuery(
 								"Select v from manz_z10f v where v.品目k = :品目k")
 						.setParameter("品目k", dataManz_h.get品目k())
