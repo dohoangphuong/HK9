@@ -21,3 +21,10 @@ slf4j.api-1.6.1.jar
 struts2-core-2.3.1.2.jar
 struts2-json-plugin-2.1.8.jar
 xwork-core-2.2.1.jar
+
+Structs2_Hello_World
+
+net.viralpatel.struts2.action
+net.viralpatel.struts2.logic : AuthenticateLogic.java
+net.viralpatel.struts2.model
+net.viralpatel.struts2.util : HibernateUtil.java
